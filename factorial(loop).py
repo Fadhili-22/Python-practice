@@ -1,5 +1,5 @@
 # Get input from user
-number = int(input("Enter a positive number: "))
+number = int(input("Enter a number: "))
 
 # Initialize factorial to 1
 factorial = 1
@@ -19,4 +19,4 @@ else:
         i += 1
     
     # Display the result
-    print(f"Factorial of {number} is {factorial}")
+    print("Factorial of", number, "is", factorial)
